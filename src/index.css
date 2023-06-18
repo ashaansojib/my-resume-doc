@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 body{
-    @apply bg-green-500 text-white max-h-screen h-[600px] font-serif
+    @apply bg-green-300 text-white max-h-screen h-[600px] font-serif
 }
 .my-container{
     @apply mx-auto max-w-screen-lg
