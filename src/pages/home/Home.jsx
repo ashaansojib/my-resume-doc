@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div className='grid grid-cols-3 my-container items-center pt-10'>
             <Profile></Profile>
-            <div className='col-span-2 border h-[420px]'>
+            <div className='col-span-2 border h-[420px] bg-white text-black px-4 overflow-scroll'>
                 <Outlet></Outlet>
             </div>
             <div className='absolute top-16 left-20'>
