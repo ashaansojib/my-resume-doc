@@ -5,9 +5,9 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Profile = () => {
     return (
-        <div className='text-black bg-white rounded-md mt-8'>
+        <div className='text-black bg-white rounded-md'>
             <div className='text-center'>
-                <div className='bg-gradient-to-r to-white from-slate-300'>
+                <div className='bg-gradient-to-r to-white from-slate-300 overflow-hidden rounded-t-md'>
                     <img src="https://i.ibb.co/w0NRg39/attractive-young-male-nutriologist-lab-coat-smiling-against-white-background-662251-2960-removebg-pr.png" alt="" />
                 </div>
                 <div className='p-4 mt-2'>
