@@ -8,10 +8,10 @@ const Home = () => {
     const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
-        // Simulate an asynchronous task
+        
         setTimeout(() => {
-            setIsLoading(false); // Set loading state to false after a delay
-        }, 2000); // Change the delay time as needed
+            setIsLoading(false);
+        }, 2000);
     }, []);
     return (
         <div className='grid grid-cols-3 my-container items-center pt-10'>
